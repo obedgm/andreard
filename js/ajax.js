@@ -44,7 +44,7 @@ var SendMail = function(){
             'action'    : 'SendMessage',
             'name'      : $('#name').val(),
             'email'     : $('#email').val(),
-            'subject'   : 'Email from ARGUS',
+            'subject'   : $('#subject').val(),
             'message'   : $('#message').val()
         };
         $.ajax({
